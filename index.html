@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=school" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devesh Kumar</title>
+
+    <style>
+        html {
+            scroll-padding-top: 100px;
+
+        }
+    </style>
+
+</head>
+
+<body class="bg-zinc-50 font-['Google_Sans_Flex'] text-zinc-900 cursor-default">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 w-full bg-white/30 backdrop-blur-[10px] border-b border-zinc-100">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="font-bold text-lg tracking-tight">Devesh Kumar</div>
+            <div class="flex gap-8 text-sm font-medium text-zinc-600">
+                <a href="#about" class="hover:text-zinc-900 transition-colors">About</a>
+                <a href="#education" class="hover:text-zinc-900 transition-colors">Education</a>
+                <a href="#experience" class="hover:text-zinc-900 transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-zinc-900 transition-colors">Projects</a>
+                <!-- <a href="#contact" class="hover:text-zinc-900 transition-colors">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row gap-12">
+
+        <!-- Left Panel (Sticky) -->
+        <aside class="w-full md:w-1/4">
+            <div class="md:sticky md:top-28 space-y-6">
+                <div class="w-48 h-48 rounded-full bg-zinc-200 overflow-hidden mx-auto md:mx-0">
+                    <img src="pic.png" alt="Profile" class="w-full h-full object-cover scale-102" draggable="false">
+                </div>
+                <div class="space-y-2 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Devesh Kumar</h1>
+                    <p class="text-zinc-600">Pre-Final Year CS Undergraduate</p>
+                    <div class="text-sm text-zinc-500 space-y-1">
+                        <span class="flex gap-1 items-center justify-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                                <path
+                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                            </svg>
+                            Indian Institute of Technology, Mandi
+                        </span>
+                        <span class="flex gap-1 items-center justify-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            Himachal Pradesh, India
+                        </span>
+                        <div class="flex flex-row gap-3 mt-5">
+                            <a href="https://github.com/dvshkr">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-github hover:text-zinc-800" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </a>
+
+                            <!-- 
+                            <a href="https://x.com/dvshkr">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-twitter-x hover:text-zinc-800" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                </svg>
+                            </a> -->
+
+                            <a href="https://www.linkedin.com/in/dvshkr/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-linkedin hover:text-zinc-800" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Content Panel -->
+        <div class="flex-1 space-y-10">
+
+            <section id="about" class="prose prose-zinc max-w-none">
+                <h2 class="text-xl font-semibold border-b border-zinc-200 pb-2 mb-2">About Me</h2>
+                <div class="space-y-2">
+                    <p>Hi! I'm Devesh, a computer science undergraduate interested in multimodal AI, 3D computer vision,
+                        neural rendering, and vision-language models.
+                        I am currently pursuing my undergraduate studies at Indian Institute of Technology, Mandi, where
+                        I have focused on deep
+                        learning, computer vision, and systems-oriented coursework. I also spent an exchange semester in
+                        Informatics at the Technical University of Munich (TUM), where I worked on language-enabled
+                        Gaussian Splatting frameworks for open-vocabulary 3D scene understanding. Alongside this, I
+                        worked on self-supervised deep learning pipelines for scientific data analysis at the Physical
+                        Research Laboratory (PRL), exploring large-scale representation learning on real-world
+                        observational data.
+                    </p>
+                </div>
+            </section>
+
+            <section id="research-interests">
+                <h2 class="text-xl font-semibold border-b border-zinc-200 pb-2 mb-2">Research Interests</h2>
+                <ul class="list-disc list-inside text-zinc-600 space-y-1 font-light">
+                    <li>Multimodal Learning</li>
+                    <li>3D Computer Vision</li>
+                    <li>Vision-Language Models</li>
+                    <li>Self-Supervised Learning</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2 class="text-xl font-semibold border-b border-zinc-200 pb-2 mb-2">Education</h2>
+                <div class="space-y-6 font-light">
+                    <div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-semibold">Indian Institute of Technology, Mandi</h3>
+                                <p class="text-zinc-800 text-sm">Bachelors of Engineering, Computer Science</p>
+                            </div>
+                            <div class="flex flex-col items-end gap-1">
+                                <span class="text-zinc-500 text-sm italic">2023 — 2027</span>
+                                <span class="text-zinc-500 text-sm italic">CGPA: 9.02/10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-semibold">Technical University of Munich</h3>
+                                <p class="text-zinc-800 text-sm">Exchange Student, Informatics</p>
+                            </div>
+                            <div class="flex flex-col items-end gap-1">
+                                <span class="text-zinc-500 text-sm italic">Winter Semester 2025/26</span>
+                                <span class="text-zinc-400 text-sm italic"></span>
+
+                            </div>
+                        </div>
+                        <div class="text-sm text-zinc-500 italic">
+                            Coursework: 3D Computer Vision Practical, Modern Computer Vision Methods, Computer Vision
+                            III, Advanced Programming, Innovation Sprint (UnternehmerTUM)
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2 class="text-xl font-semibold border-b border-zinc-200 pb-2 mb-2">Experience</h2>
+                <div class="space-y-6 font-light">
+                    <div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-normal">Physical Research Laboratory (PRL), Ahemdabad</h3>
+                                <p class="text-zinc-600 text-sm">Deep Learning Research Internship</p>
+                            </div>
+                            <div class="mt-2 flex flex-col items-end gap-1">
+                                <span class="text-zinc-500 text-sm italic">Remote</span>
+                                <span class="text-zinc-500 text-sm italic">Oct 25 - Apr 26</span>
+                            </div>
+                        </div>
+                        <div class="text-sm text-zinc-500 font-light">
+                            <ul class="list-disc list-inside">
+                                <li>
+                                    Worked on large-scale self-supervised learning pipelines for automated solar radio
+                                    burst analysis using terabyte-scale e-Callisto spectrogram archives. Developed
+                                    contrastive and masked-spectrogram pretraining frameworks to learn robust
+                                    representations from noisy multi-station observations, and applied transfer learning
+                                    for localized burst detection and classification under challenges such as radio
+                                    frequency interference, weak labels, weather variability, and station-specific
+                                    instrument differences.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="text-xl font-semibold border-b border-zinc-200 pb-2 mb-2">Featured Projects</h2>
+                <div class="grid grid-cols-1 gap-6">
+
+                    <div>
+                        <h3 class="font-normal mb-1">3D Semantic Scene Understanding - Language-Enabled Gaussian
+                            Splatting Framework
+                            <span class="cursor-pointer text-orange-500 hover:text-orange-700">
+                                <a href="https://github.com/dvshkr/3DCVCodes" target="_blank">
+                                    [GitHub]
+                                </a>
+                            </span>
+                        </h3>
+                        <ul class="list-disc list-inside text-zinc-500 space-y-1 text-sm font-light">
+                            <li>Designed and integrated multiple state-of-the-art 3D Gaussian
+                                Splatting frameworks into a unified open-vocabulary semantic scene understanding
+                                pipeline
+                                capable of real-time rendering and querying at 450+ FPS.
+                            </li>
+                            <li>Extended LangSplatV2 with SAMv2
+                                and
+                                modern vision-language models including SigLIP2, DINOv2, and OpenCLIP through a fully
+                                refactored dynamic-feature Gaussian representation, while building end-to-end semantic
+                                preprocessing, sparse codebook training, evaluation pipelines, and interactive
+                                WebGL-based
+                                semantic visualization tools.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+
+
+                        <h3 class="font-normal mb-1">UniBio - Multi-Modal Fusion Transformer for Biometric
+                            Watermarking</h3>
+                        <ul class="list-disc list-inside text-zinc-500 space-y-1 text-sm font-light">
+                            <li>Developed a novel CNN-Transformer hybrid architecture for biometric watermarking using
+                                periocular, forehead, and iris modalities, introducing a Modal Prompt Tuning (MPT)
+                                mechanism for effective cross-modal representation fusion into a shared embedding space.
+                                The system achieved state-of-the-art performance with 88.73% Rank-1 accuracy and 0.0543
+                                Equal Error Rate (EER), outperforming the FBR baseline from CVPR 2023.
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+            </section>
+
+            <!-- <section id="contact">
+                <h2 class="text-xl font-bold border-b border-zinc-200 pb-2 mb-4">Contact</h2>
+                <div class="text-zinc-600 space-y-2">
+                    <p>Email: name@uni.edu</p>
+                    <div class="flex gap-4 pt-2">
+                        <a href="#"
+                            class="text-sm text-zinc-400 hover:text-zinc-900 border-b border-zinc-200">GitHub</a>
+                        <a href="#"
+                            class="text-sm text-zinc-400 hover:text-zinc-900 border-b border-zinc-200">Twitter</a>
+                        <a href="#" class="text-sm text-zinc-400 hover:text-zinc-900 border-b border-zinc-200">Google
+                            Scholar</a>
+                    </div>
+                </div>
+            </section> -->
+
+        </div>
+    </main>
+
+</body>
+
+</html>
